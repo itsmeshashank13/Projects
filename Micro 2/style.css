@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size: 3rem;
+    text-decoration: underline;
+    color: rgb(209, 252, 251);
+}
+
+#counter{
+    font-size: 5rem;
+    font-weight: bolder;
+    color: rgb(209, 252, 251);
+}
+
+button{
+    color: rgb(209, 252, 251);
+    font-size: 2rem;
+    font-weight: bolder;
+    background-color: black;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+
