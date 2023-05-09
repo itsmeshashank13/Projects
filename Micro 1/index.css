@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+
+.beige{
+    display: flex;
+    background-color: #FFCD9E;
+    height: 70%;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.black{
+    display: flex;
+    background-color: #282828;
+    height: 30%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.one{
+    word-wrap: break-word;
+    max-width: 35%;
+    margin: auto 0;
+}
+
+h1{
+    font-size: 2.5rem;
+    text-align: left;
+    font-weight: bolder;
+}
+
+p{
+    font-size: 1.6rem;
+    text-align: left;
+    margin-right: 7rem;
+}
+
+h3{
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
+h4{
+    color: white;
+    margin-left: 35px;
+    font-size: 1.3rem;
+}
+
+input{
+    border: black solid 5px;
+    padding: 1.1rem 5rem 1.1rem 3rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    margin-right: 1.5%;
+}
+
+button{
+    border: black solid 3px;
+    background-color: black;
+    color: White;
+    font-size: 1.5rem;
+    padding: 1.1rem 2rem;
+    border: black solid 5px;
+    border-radius: 10px;
+}
+
+.two {
+    max-width: 50%;
+    margin: auto 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+ul{
+    color: White;
+    list-style: none;
+    font-size: 1.3rem;
+    margin: 10rem 0;
+}
+
+li{
+    margin: 1.2rem;
+}
+
+
+
+.three{
+    
+}
+
+.four{
+    text-align: right;
+}
+
+.img{
+    display: flex;
+    justify-content: right;
+}
