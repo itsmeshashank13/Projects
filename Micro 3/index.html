@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Spill</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h2>BILL</h2>
+        <h2>SPILL</h2>
+    </div>
+    <div class="mainContainer">
+
+        <div class="leftSection">
+
+            <div class="label">
+                <label for="input">Bill</label>
+            </div>
+            <div class="inputContainer">
+                <input type="number" placeholder="0" id="input">
+                <img class= "rupee" src="money.png" alt="rupeeSign">
+            </div>
+            <div class="label">
+                <label for="input">Select Tip %</label>
+            </div>
+            <div class="buttonContainer">
+                <button class="btn">5%</button>
+                <button class="btn">10%</button>
+                <button class="btn">15%</button>
+                <button class="btn">25%</button>
+                <button class="btn">50%</button>
+                <button class="btn">75%</button>
+            </div>
+            <div class="label">
+                <label for="input">Number of People</label>
+                <p id="error"></p>
+            </div>
+            <div class="peopleNumber">
+                <input type="number" placeholder="0" id="people">
+                <img src="people.png" alt="peopleimg">
+            </div>
+            <button class="billBtn">Generate Bill</button>
+
+        </div>
+        <div class="rightSection">
+
+            <div class="amount">
+                <div class="calc">
+                    <p>Tip Amount <br> <span>/ person</span> </p>
+                    <div class="tipAmount">&#x20B9; 0.00</div>
+                </div>
+                <div class="calc">
+                    <p>Total <br> <span>/ person</span> </p>
+                    <div class="totalAmount">&#x20B9; 0.00</div>
+                </div>
+            </div>
+            <button class="reset">Reset</button>
+
+        </div>
+
+    </div>
+
+    
+<script src="script.js"></script>
+</body>
+</html>

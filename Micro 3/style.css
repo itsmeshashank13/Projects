@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #D6BCFF;
+}
+
+
+.header{
+    color: #6F3CFF;
+    display: block;
+    text-align: center;
+    margin-block: 50px;
+    line-height: 2rem;
+   letter-spacing: 0.8rem;
+
+}
+
+.mainContainer{
+    background-color : #fff;
+    border-radius : 20px;
+}
+
+.leftSection{
+    padding: 50px;
+}
+
+.label{
+    font-family: 'Space Mono',sans-serif;
+    font-size: 14px;
+    color : #9C60FF;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.inputContainer {
+    position: relative;
+}
+
+.inputContainer > img {
+    position: absolute;
+    top : 15px;
+    left : 15px;
+}
+
+
+.inputContainer > input {
+    margin-block: 0 20px;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(182, 172, 196, 0.53);
+    font-family: 'Space Mono',sans-serif;
+    font-size: 19px;
+    text-align: right;
+    font-weight: 700;
+    color: #9C60FF;
+    cursor: pointer;
+    
+}
+
+.buttonContainer{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap : 15px;
+    margin-bottom: 40px;
+}
+
+.buttonContainer > button {
+    padding : 10px;
+    border: none;
+    border-radius: 5px;
+    background-color : #9C60FF;;
+    color : #fff;
+    font-size: 20px;
+    font-family: 'Space Mono',sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.buttonContainer >button.active {
+    background-color : #9C60FF;;
+}
+
+.buttonContainer > button.disabled {
+  background-color: #ccc;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.buttonContainer > input {
+    border : none;
+    padding : 10px;
+    background-color: hsl(189, 41%, 97%);
+    border-radius: 5px;
+}
+
+.peopleNumber {
+    position: relative;
+}
+
+.peopleNumber > img {
+    position: absolute;
+    top : 15px;
+    left : 15px;
+}
+
+.peopleNumber > input {
+    margin-block: 0 20px;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(182, 172, 196, 0.53);
+    font-family: 'Space Mono',sans-serif;
+    font-size: 19px;
+    text-align: right;
+    font-weight: 700;
+    color: #9C60FF;
+    cursor: pointer;
+}
+
+.billBtn{
+    position: absolute;
+    padding : 15px;
+    border: 2px solid rgba(182, 172, 196, 0.53);
+    border-radius: 5px;
+    background: #ffffff;
+    font-size: 16px;
+    color: #9C60FF;
+    font-weight: 700;
+    width : 280px;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.rightSection{
+    background: #9C60FF;  
+    border: none;
+    border-radius: 20px;
+    padding-block : 50px 20px;
+    padding-inline : 20px;
+}
+
+.calc {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.calc > p{
+    font-size: 20px;
+    font-family: 'Space Mono',sans-serif;
+    color : #fff;
+    font-weight: 600;
+}
+
+.calc > p > span {
+    opacity: 0.5;
+}
+
+.calc > div {
+    font-size: 30px;
+    font-family: 'Space Mono',sans-serif;
+    color: #C39FFF;
+    font-weight: 600;
+}
+
+.reset {
+    padding : 15px;
+    border: none;
+    border-radius: 5px;
+    background: #C39FFF;
+    font-size: 16px;
+    color: #9C60FF;
+    font-weight: 700;
+    width : 280px;
+    cursor: pointer;
+}
+
+@media screen and (min-width : 1200px) {
+    .mainContainer {
+        display: flex;
+        width: 920px;
+        height : 490px;
+        margin : 0 auto;
+    }
+
+    .leftSection {
+        width: 50%;
+    }
+
+    .rightSection {
+        width : 50%;
+        margin-block : 35px;
+        margin-right: 35px;
+        padding-block : 50px 20px;
+        padding-inline : 20px;
+        position: relative;
+    }
+
+    .calc {
+        padding-inline : 30px;
+    }
+
+    .billBtn{
+        position: absolute;
+        width : 395px;
+    }
+
+    .reset {
+        position: absolute;
+        bottom: 40px;
+        left : 40px;
+        width : 300px;
+        margin :  0 auto;
+    }
+
+    .inputContainer > input {
+        width : 375px;
+    }
+
+    .peopleNumber > input {
+        position: relative;
+        width : 375px;
+        bottom : 0px;
+    }
+
+    .peopleNumber > img {
+        position: absolute;
+        top : 15px;
+    }
+    
+    .buttonContainer {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        width: 120px;
+    }
+
+    .buttonContainer > input {
+        width : 95px;
+    }
+} 
+
