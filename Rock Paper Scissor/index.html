@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Stone Paper Scissor</title>
+</head>
+<body>
+    <div class="rectangle-parent">
+      <div class="frame"></div>
+      <div class="rock">
+          <h2>ROCK</h2>
+          <h2>PAPER</h2>
+          <h2>SCISSORS</h2>
+        </div>
+      <div class="frame-inner"></div>
+      <div class="your">YOUR</div>
+      <b class="score">SCORE</b>
+      <b class="b">0</b>
+      <div class="rectangle-div"></div>
+      <div class="computer">COMPUTER</div>
+      <b class="score1">SCORE</b>
+      <b class="b1">0</b>
+
+        <div class="triangle">&#9650;   
+            <div class="circle circle-1" id="white">
+                <img src="img/fist.png" alt="rock" class="img">
+                <div class="inner-circle"></div>
+            </div>
+            <div class="circle circle-2">
+                <img src="img/paper.png" alt="paper" class="img">
+                <div class="inner-circle"></div>
+            </div>
+            <div class="circle circle-3">
+                <img src="img/scissor.png" alt="scissors" class="img">
+                <div class="inner-circle"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="result-section">
+        <div class="result"></div>
+        <div class="choices">
+            <div class="r1">You Picked <span class="user-choice"></span></div>
+            <div class="r2">Pc Picked <span class="computer-choice"></span></div>
+        </div>
+    </div>
+
+    <a href="#rules-popup" class="open-button">Rules</a>
+
+    <div id="rules-popup" class="popup-container">
+        <span class="close">
+            <a href="#" class="close"> &times; </a>
+        </span> 
+        <div class="right">
+            <h2>Game Rules</h2>
+            <ul>
+                <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+                <li>Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.</li>
+                <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time.</li>
+                <li>If both players lay down the same hand, each player lays down another hand.</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
